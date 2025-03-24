@@ -1,4 +1,3 @@
-
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -26,23 +25,23 @@ export const Menu: React.FC = () => {
       {
         name: "Truffle Arancini",
         description: "Wild mushroom risotto balls with black truffle and parmesan",
-        price: "$12",
+        price: "₹800",
       },
       {
         name: "Tuna Tartare",
         description: "Hand-cut yellowfin tuna, avocado, sesame ginger dressing, wonton crisps",
-        price: "$16",
+        price: "₹1100",
         highlight: true,
       },
       {
         name: "Roasted Beet & Goat Cheese",
         description: "Heirloom beets, whipped goat cheese, candied walnuts, balsamic glaze",
-        price: "$14",
+        price: "₹950",
       },
       {
         name: "Charcuterie Board",
         description: "Selection of artisanal cheeses and cured meats with accompaniments",
-        price: "$22",
+        price: "₹1500",
       },
     ],
   };
@@ -53,23 +52,23 @@ export const Menu: React.FC = () => {
       {
         name: "Herb-Crusted Rack of Lamb",
         description: "Dijon and herb breadcrumb crust, rosemary jus, seasonal vegetables",
-        price: "$34",
+        price: "₹2300",
         highlight: true,
       },
       {
         name: "Pan-Seared Sea Bass",
         description: "Lemon beurre blanc, asparagus, fingerling potatoes",
-        price: "$30",
+        price: "₹2000",
       },
       {
         name: "Wild Mushroom Risotto",
         description: "Arborio rice, assorted wild mushrooms, truffle oil, aged parmesan",
-        price: "$24",
+        price: "₹1600",
       },
       {
         name: "Braised Short Rib",
         description: "Slow-cooked beef short rib, red wine reduction, creamy polenta",
-        price: "$32",
+        price: "₹2200",
       },
     ],
   };
@@ -80,23 +79,23 @@ export const Menu: React.FC = () => {
       {
         name: "Chocolate Hazelnut Torte",
         description: "Dark chocolate ganache, toasted hazelnuts, raspberry coulis",
-        price: "$12",
+        price: "₹800",
         highlight: true,
       },
       {
         name: "Lemon Panna Cotta",
         description: "Meyer lemon panna cotta, fresh berries, shortbread cookie",
-        price: "$10",
+        price: "₹700",
       },
       {
         name: "Seasonal Fruit Tart",
         description: "Buttery pastry shell, vanilla custard, glazed seasonal fruits",
-        price: "$11",
+        price: "₹750",
       },
       {
         name: "Artisanal Cheese Selection",
         description: "Chef's selection of three artisanal cheeses, honey, nuts, fruit preserves",
-        price: "$16",
+        price: "₹1100",
       },
     ],
   };
@@ -107,7 +106,7 @@ export const Menu: React.FC = () => {
       {
         name: "Craft Cocktails",
         description: "Signature cocktails crafted with premium spirits and fresh ingredients",
-        price: "From $14",
+        price: "From ₹950",
       },
       {
         name: "Wine Pairings",
@@ -118,12 +117,12 @@ export const Menu: React.FC = () => {
       {
         name: "Artisanal Non-Alcoholic",
         description: "House-made sodas, fruit-infused waters, and mocktails",
-        price: "From $6",
+        price: "From ₹400",
       },
       {
         name: "Coffee & Tea Service",
         description: "Premium coffee and tea selections with optional dessert pairings",
-        price: "From $4",
+        price: "From ₹250",
       },
     ],
   };
